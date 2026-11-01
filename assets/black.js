@@ -114,7 +114,7 @@ window.CONFIG = {
 
   // Medidor próprio (dash "Black 2026" no hub conteudo): manda pro Worker do domínio (/__ev), que grava no Supabase.
   // Só no domínio de verdade (na prévia do github.io não mede). Nada de nome ou WhatsApp: só página, botão, origem e aparelho.
-  const MEDE = /(^|\.)manualdorecemnascido\.com\.br$/.test(location.hostname);
+  const MEDE = /^(black|clube)\.manualdorecemnascido\.com\.br$/.test(location.hostname);
   const ss = (k, v) => { try { if (v === undefined) return sessionStorage.getItem(k); sessionStorage.setItem(k, v); } catch (_) {} return null; };
   const id = () => Math.random().toString(36).slice(2) + Date.now().toString(36);
   function ev(evento, extra) {
