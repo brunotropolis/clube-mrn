@@ -9,7 +9,7 @@ window.CONFIG = {
   // (/api/entrar) escolher o grupo pelo WhatsApp (veteranas x novas, mesmo grupo de antes) e
   // esse link substituir o daqui. Reserva = grupo captando de 31/10 (Black #1 e Clube novas #1).
   linkGrupo: {
-    'black-maternity': 'https://chat.whatsapp.com/IvR5e4SChoTIHI5uWSyzS8',
+    'black-maternity': 'https://chat.whatsapp.com/FeuFcLjMqtG8nfRo9aGTMX',
     'clube-do-bebe': 'https://chat.whatsapp.com/FjxNqnmAiJ292VYv0BdSkI'
   }
 };
